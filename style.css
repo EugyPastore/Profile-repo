@@ -20,6 +20,9 @@ h2 {
   font-weight: 500;
 }
 
+a {
+  display: inline-block;
+}
 .btn-orange{
   background-color: #bc6c25;
   padding: 15px 20px;
@@ -39,11 +42,12 @@ h2 {
 
 p {
   line-height: 27px;
+  margin-top: 30px;
   margin-bottom: 40px;
 }
 
 .container {
-  width: 500px;
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -78,6 +82,14 @@ p {
   color: #cccccb;
 }
 
+.icon-wagon {
+  position: relative;
+  top: 5px;
+  width: 23px;
+  background: url("lewagon.png");
+}
+
+
 /* make reponsive*/
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -98,11 +110,4 @@ p {
   .container {
     width: 300px;
   }
-}
-
-.icon-wagon {
-  position: relative;
-  top: 5px;
-  width: 23px;
-  background: url("lewagon.png");
 }
