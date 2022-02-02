@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400;500;700&family=Rubik:wght@400;700&display=swap');
+
+body {
+  background-color: #f2f2f1;
+  color: #081c15;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn-orange{
+  background-color: #bc6c25;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+.btn-orange:hover {
+  color: #bc6c25;
+  background-color: white;
+  border-color: #bc6c25;
+  border: 1px solid;
+}
+
+p {
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin: 20px 0;
+  text-align: center;
+  background-color: white;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+  }
+
+.list-inline > li {
+  display: inline;
+  padding: 0px 10px;
+}
+
+.img_rounded {
+  border-radius: 50px;
+}
+
+.icon-large:hover{
+  color: #081c15;
+}
+.icon-large{
+  font-size: 50px;
+  color: #cccccb;
+}
+
+/* make reponsive*/
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
