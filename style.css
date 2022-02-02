@@ -99,3 +99,10 @@ p {
     width: 300px;
   }
 }
+
+.icon-wagon {
+  position: relative;
+  top: 5px;
+  width: 23px;
+  background: url("lewagon.png");
+}
